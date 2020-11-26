@@ -1,0 +1,30 @@
+footer{
+    background-color: #001255;
+    padding: 60px 220px;
+}
+
+#principleLearning{
+    margin-left: 80px;
+}
+
+#footer_nav{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.561);
+    padding-bottom: 40px;
+}
+
+#footer_SNS_link{
+    margin: 50px;
+    display: flex;
+    width: 150px;
+    position: relative;
+    left: 435px;
+}
+#footer_SNS_link a{
+    flex-grow: 1;
+}
+
+#footer_info{
+    color: white;
+    text-align: center;
+    font-size: 13px;
+}

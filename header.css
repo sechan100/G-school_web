@@ -1,0 +1,119 @@
+#head{              /* 거꾸로 캠퍼스 제목 */
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 30px;
+    margin-right: 230px;
+    z-index: 1;
+}
+#head a{            /* 거꾸로 캠퍼스 제목 a-Tag */
+    color: black;
+}
+
+.nav_itme{          /* 헤더 ul - li */
+    color: black;
+    z-index: 1;
+}
+
+.nav_itme a{          /* 헤더 ul - li - a */
+    color: black;
+    font-size: 14px;
+}
+
+#header_btn{        /* 헤터 색 바뀌는 버튼 */    
+    position: relative;
+    right: -350px;
+}
+
+#header_btn a{      /* 헤더 색 바뀌는 버튼 a-Tag */
+    border: 1px solid rgb(182, 182, 182);
+    padding: 7px 18px;
+    font-size: 13px;
+    font-weight: bold;
+    transition: border 0.5s, background-color 0.5s, color 0.5s;
+}
+
+#header_btn a:hover{    /* 헤더 색 바뀌는 버튼 hover */
+    background-color: rgb(8, 8, 190);
+    color: white;
+    border: 1px solid white;
+}
+
+#filter_btn{
+    display: flex;
+    position: relative;
+    left: -90px;
+}
+#filter_btn div{
+    width: 40px;
+    height: 40px;
+    margin: 0px 8px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+header #filter_btn #on_off{
+    background-color: rgb(24, 97, 255);
+    border-radius: 5px;
+    width: 55px;
+    height: 40px;
+    margin-top: 1px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 150%;
+    transition: 
+    background-color 1s 
+    width 0.5s 
+    height 0.5s 
+    margin 0.5s s
+    font-size 0.5s
+    line-height 0.5s
+    margin-top 0.5s
+}
+header #filter_btn #on_off:hover{
+    background-color: rgb(240, 0, 0);
+    cursor: pointer;
+    width: 56px;
+    height: 41px;
+    margin-bottom: -1px;
+    margin-top: -1px;
+    line-height: 140%;
+    font-size: 27px;
+}
+
+#white{
+    background-color: rgba(255, 255, 255, 0.918);
+    transition: background-color 0.3s width 0.5s height 0.5s margin 0.5s;
+}
+#white:hover{
+    background-color: rgb(214, 214, 214);
+    cursor: pointer;
+    width: 41px;
+    height: 41px;
+    margin-bottom: -1px;
+}
+
+#yellow{
+    background-color: rgb(255, 255, 126);
+    transition: background-color 0.3s width 0.5s height 0.5s margin 0.5s;
+}
+#yellow:hover{
+    background-color: rgb(200, 200, 0);
+    cursor: pointer;
+    width: 41px;
+    height: 41px;
+    margin-bottom: -1px;
+}
+
+#green{
+    background-color: rgb(0, 175, 0);
+    transition: background-color 0.3s width 0.5s height 0.5s margin 0.5s;
+}
+#green:hover{
+    background-color: rgb(0, 117, 0);
+    cursor: pointer;
+    width: 41px;
+    height: 41px;
+    margin-bottom: -1px;
+}
+
+

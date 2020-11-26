@@ -1,0 +1,48 @@
+#filter_top{
+    position: fixed;
+    width: 0px;
+    height: 0px;
+    transition: opacity 1s;
+}
+#filter_bottom{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 0px;
+    height: 0px;
+    transition: opacity 1s;
+}
+/* 필터 없음 */
+.filter_none{
+    opacity: 0;
+}
+
+/* 필터색 - 하양 */
+body .filter_top_w{
+    border-bottom: 700px solid transparent;
+    border-left: 700px solid rgba(255, 255, 255, 0.411);
+}
+body .filter_bottom_w{
+    border-top: 700px solid transparent;
+    border-right: 700px solid rgba(255, 255, 255, 0.411);
+}
+
+/* 필터색 - 노랑 */
+body .filter_top_y{
+    border-bottom: 700px solid transparent;
+    border-left: 700px solid rgba(255, 238, 0, 0.185);
+}
+body .filter_bottom_y{
+    border-top: 700px solid transparent;
+    border-right: 700px solid rgba(255, 238, 0, 0.185);
+}
+
+/* 필터색 - 초록 */
+body .filter_top_g{
+    border-bottom: 700px solid transparent;
+    border-left: 700px solid rgba(72, 255, 0, 0.185);
+}
+body .filter_bottom_g{
+    border-top: 700px solid transparent;
+    border-right: 700px solid rgba(72, 255, 0, 0.185);
+}

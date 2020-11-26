@@ -1,0 +1,55 @@
+header{               /* 헤더 */
+    display: flex;
+    flex-grow: 1;
+    padding: 35px;
+    width: 1200px;
+    z-index: 1;
+}
+.header_itme{        /* 헤더 flex itme */
+    flex-grow: 1;
+}
+#nav_ul{            /* 헤더 리스트 ul */
+    display: flex;
+}
+.nav_itme{          /* 헤더 리스트 */
+    flex-grow: 1;
+}
+
+
+#video{             /* 영상 container */   
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#contents{          /* contents container */
+    flex-grow: 1;
+    height: 500px;
+    width: 1000px;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+}
+
+footer{             /* footer container */
+    flex-grow: 1;
+}
+#footer_nav{
+    display: flex;
+}
+.footer_itme{       /* footer flex itme */
+    flex-grow: 1;
+}
+.category{          /* footer itmes heading */
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+footer li a{          /* itme of lists */
+    font-size: 10px;
+    text-decoration: none;
+    color: white;
+}
